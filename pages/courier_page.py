@@ -23,5 +23,5 @@ class CourierApi:
         return{'login':CourierName.login, 'password':CourierName.password, 'firstName': CourierName.first_name}
     
     @allure.step('Извлечение идентификатора курьера')
-    def get_courier_id(self):
-        return self.get_courier_id
+    def courier_id(self):
+        return self.courier_id

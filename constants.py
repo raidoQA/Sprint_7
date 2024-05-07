@@ -11,7 +11,7 @@ class Url:
 
 
 class CourierName:
-    login = 'CourierTester1008'
+    login = 'CourierTester1016'
     password = 'passwdZXCgoul'
     first_name = 'Тестерович'
 

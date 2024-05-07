@@ -12,7 +12,6 @@ class APIConnector:
             response.raise_for_status()
             return response
         except requests.exceptions.RequestException as e:
-            print(f'Ошибка запроса к{url}:{e}')
             return response
     
     def get(self, order, params=None):
@@ -22,7 +21,6 @@ class APIConnector:
             response.raise_for_status()
             return response
         except requests.exceptions.RequestException as e:
-            print(f'Ошибка запроса к{url}:{e}')
             return response
 
     
